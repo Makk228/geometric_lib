@@ -19,7 +19,7 @@ sizes = {
     'area-triangle': 3
 }
 
- def calc(fig, func, size):
+def calc(fig, func, size):
     """
     Функция для вычисления периметра или площади фигуры.
     """
