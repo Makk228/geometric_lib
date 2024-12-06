@@ -53,7 +53,8 @@ if __name__ == "__main__":
         available are {funcs}:\n")
 
     
-    while len(size) != sizes.get(f"{func}-{fig}", 1):
+    while len(size) != 
+    sizes.get(f"{func}-{fig}", 1):
         size = list(map(int, input("Input figure\
         sizes separated by space").split(' ')))
 
