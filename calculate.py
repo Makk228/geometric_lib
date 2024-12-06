@@ -49,11 +49,13 @@ if __name__ == "__main__":
 
     # Ввод функции
     while func not in funcs:
-        func = input(f"Enter function name, available are {funcs}:\n")
+        func = input(f"Enter function name,\
+        available are {funcs}:\n")
 
     # Ввод размеров в зависимости от выбранной функции и фигуры
     while len(size) != sizes.get(f"{func}-{fig}", 1):
-        size = list(map(int, input("Input figure sizes separated by space").split(' ')))
+        size = list(map(int, input("Input figure\
+        sizes separated by space").split(' ')))
 
     result = calc(fig, func, size)
     print(result)
