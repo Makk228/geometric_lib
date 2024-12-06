@@ -52,7 +52,8 @@ if __name__ == "__main__":
         func = input(f"Enter function name,\
         available are {funcs}:\n")
 
-    # Ввод размеров в зависимости от выбранной функции и фигуры
+    # Ввод размеров в зависимости от выбранной 
+    функции и фигуры
     while len(size) != sizes.get(f"{func}-{fig}", 1):
         size = list(map(int, input("Input figure\
         sizes separated by space").split(' ')))
