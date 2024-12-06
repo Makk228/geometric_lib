@@ -1,8 +1,11 @@
-def area(a, h):
-    '''Функция принимает 2  аргумента a, h (все int) и возвращает
-        площадь тркугольника по формуле 1/2*a*h (float)
+import math
+def area(a, b, c):
+    p=(a+b+c)/2
+    '''Функция принимает 2  аргумента a, b, c (все int) и возвращает
+        площадь тркугольника по формуле Герона
+        math.sqrt(p * (p-a) * (p-b) * (p-c))  (float)
     '''
-    return  1/2*a*h
+    return  math.sqrt(p * (p-a) * (p-b) * (p-c))
 
 
 def perimeter(a, b, c):
