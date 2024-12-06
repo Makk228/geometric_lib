@@ -1,6 +1,5 @@
 import sys
-sys.path.append('../')
-
+sys.path.append('../geometric_lib')
 import pytest
 import math
 import calculate as c
