@@ -26,9 +26,9 @@ jobs:
 
     - name: Display author information
       run: |
-        echo "Author: ${ env.NAME }"
-        echo "Group: ${ env.GROUP }"
-        echo "GitHub username: ${ github.repository_owner }"
+        echo "Author: ${{ env.NAME }}"
+        echo "Group: ${{ env.GROUP }}"
+        echo "GitHub username: ${{ github.repository_owner }}"
 
     - name: Set up Python
       uses: actions/setup-python@v5
