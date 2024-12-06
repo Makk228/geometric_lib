@@ -19,7 +19,7 @@ sizes = {
     'area-triangle': 3
 }
 
-def calc(fig, func, size):
+ def calc(fig, func, size):
     """
     Функция для вычисления периметра или площади фигуры.
     """
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
     # Ввод размеров в зависимости от выбранной функции и фигуры
     while len(size) != sizes.get(f"{func}-{fig}", 1):
-        size = list(map(int, input("Input figure sizes separated by space, 1 for circle and square\n").split(' ')))
+        size = list(map(int, input("Input figure sizes separated by space").split(' ')))
 
     result = calc(fig, func, size)
     print(result)
