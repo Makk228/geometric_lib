@@ -49,8 +49,8 @@ if __name__ == "__main__":
 
     # Ввод функции
     while func not in funcs:
-        func = input(f"Enter function name,\
-        available are {funcs}:\n")
+        func = input(f"""Enter function name,\
+        available are {funcs}:\n""")
 
     
     while len(size) != sizes.get(f"{func}-{fig}", 1):
